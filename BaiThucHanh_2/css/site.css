@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font: 14px Arial;
+}
+.header{
+    background-image: url(../images/head-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 710px;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.logo, .hotline{
+    position: relative;
+}
+.top{
+    position: relative;
+    width: 900px;
+    display: flex;
+}
+.top .logo{
+    background-repeat: no-repeat;
+    height: 186px;
+    width: 450px;
+}
+.top .hotline{
+    width: 450px;
+}
+.top > .hotline > p{
+    background-color: rgb(19, 168, 19);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Verdana;
+    border-radius: 7px;
+    font-size: x-large;
+    padding: 10px;
+}
+.bottom{
+    position: relative;
+}
+.sign-up{
+    width: 360px;
+    height: 450px;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    border: 10px solid #ced086;
+    background-color: #678B37;
+}
+.sign-up h1{
+    font-size: 2.3em;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-weight: normal;
+}
+.sign-up p{
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 2px 0 2px 0;
+}
+.sign-up input{
+    width: 100%;
+    display: block;
+    border: none;
+    border-top: 1px solid rgba(204,204,204,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0);
+}
+.sign-up input::placeholder{
+    color: white;
+}
+.sign-up button{
+    display: block;
+    background-color: #c5d301;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    color: white;
+    margin: 5px auto;
+}
+.section-1{
+    width: 950px;
+    margin: 20px auto;
+    display: flex;
+}
+.section-1 img{
+    width: 470px;
+    height: 300px;
+    border: 2px dashed #2D8C3E;
+    border-radius: 20px;
+}
+.section-1 .describe{
+    width: 470px;
+    margin: 0 30px 0 30px;
+}
+.section-1 h1{
+    color: #2d8c3e;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0 20px 0;
+}
+.section-1 p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+.container-sec2{
+    background-color: #81af53;
+    height: 220px;
+}
+.section-2{
+    margin: 20px auto;
+    color: white;
+    display: flex;
+    width: 950px;
+}
+.section-2 .describe{
+    width: 680px;
+    text-align: justify;
+}
+.section-2 .img{
+    width: 200px;
+    margin-left: 30px;
+}
+.section-2 h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.section-2 p {
+    margin-top: 20px;
+}
+.section-2 img {
+    width: 230px;
+    height: 170px;
+    margin: 20px 0 20px 0 ;
+}
+.container-sec3{
+    background-color: #dce085;
+}
+.section-3{
+    padding-bottom: 40px;
+    width: 950px;
+    margin: 0 auto;
+}
+.section-3 h1{
+    font-size: 1.7em;
+    color: #196530;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.section-3 form{
+    display: grid;
+    grid-template-columns: repeat(2,460px);
+    margin: 0 auto;
+    width: 920px;
+}
+.section-3 .top-area{
+    display: flex;
+    width: 445px;
+}
+.section-3 .bottom-area{
+    display: flex;
+    width: 445px;
+}
+.section-3 input{
+    width: 100%;
+    margin: 5px 0 5px 0;
+    font-size: 0.9em;
+    padding: 5px;
+    border: none;
+}
+.section-3 button{
+    width: 100%;
+    background-color: #2A6E01;
+    padding: 5px;
+    border: none;
+    color: white;
+}

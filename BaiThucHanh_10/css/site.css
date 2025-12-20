@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 14px sans-serif;
+}
+:root{
+    --noraml-width: 1200px;
+    --full-size: 100%;
+    --font-color: #ee4d2d;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--font-color);
+}
+h1,p{
+    text-align: center;
+}
+.title{
+    position: absolute;
+    z-index: 2;
+    left: 370px;
+}
+.singer, .team-bd{
+    position: relative;
+    z-index: 1;
+}
+.header{
+    background-image: url(../images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+}
+.header > .header-menu{
+    width: var(--noraml-width);
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+}
+.header-menu > ul > li{
+    display: inline-table;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.header-menu > ul > li > a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: bold;
+}
+.header-menu > ul > li > a:hover{
+    transition: 0.1s;
+    border-bottom: 3px solid var(--font-color);
+}
+.content{
+    width: var(--noraml-width);
+    margin: 50px auto 0 auto;
+}
+.content > .pics{
+    display: grid;
+    grid-template-columns: 694px 243px 243px;
+    grid-template-rows: repeat(4, 243px);
+    column-gap: 7px;
+    row-gap: 15px;
+    margin-top: 20px;
+}
+.pic-0-0{
+    grid-column-start: 1;
+    grid-row-start: 1 span 2;
+}
+.pic-0-0 > .title{
+    bottom: -240px;
+}
+.shop, .chain, .item, .sticker{
+    border: 3px solid rgb(5, 5, 133);
+}
+.shop{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.chain{
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.item{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.sticker{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.pic-1-0{
+    grid-column-start: 1 span 3;
+    grid-row-start: 3;
+}
+.pic-1-0 > .title{
+    bottom: -760px;
+}

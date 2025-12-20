@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TƯ VẤN TUYỂN SINH</title>
+</head>
+<link rel="stylesheet" href="../css/style-tu-van.css">
+<body>
+    <header>
+        <b>
+            HỎI ĐÁP TƯ VẤN TUYỂN SINH
+        </b>
+    </header>    
+    <hr>
+    <br>
+      
+    <fieldset>
+        <legend>Liên hệ hỏi đáp tư vấn tuyển sinh</legend>
+    <form>
+        <table>
+            <tr>
+                <div class="name">
+                    <td><label for="name">Họ và tên:</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </div>
+            </tr>     
+            <tr>
+                <div class="gender">
+                    <td><label for="gender">Giới tính:</label></td>               
+                    <td>
+                        <input type="radio" name="gender" value="male">Nam
+                        <input type="radio" name="gender" value="female">Nữ
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div class="email">  
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" name="email"></td>
+                </div>
+            </tr>
+            <tr>
+                <div class="phone">   
+                    <td><label for="phone">Di động:</label></td>
+                    <td><input type="text" id="number" name="number"></td>
+                </div>
+            </tr>
+            <tr>
+                <div class="subject">
+                    <td><label for="subject">Ngành học bạn quan tâm:</label></td>
+                    <td>
+                        <select id="subject" name="subject">
+                            <option value="choose">Chọn Ngành Học</option>
+                            <option value="cntt">Công Nghệ Thông Tin</option>
+                            <option value="ktpm">Kỹ Thuật Phần Mềm</option>
+                            <option value="bc">Báo chí</option>
+                            <option value="tts">Truyền Thông Số</option>            
+                        </select>
+                    </td>
+                </div>
+            </tr>        
+            <tr>
+                <div class="question">   
+                    <td><label for="message" class="question">Câu hỏi bạn là gì?</label></td>
+                    <td><textarea name="message" id="message" cols="30" rows="4"></textarea></td>
+                </div>                             
+            </tr>
+            <tr>
+                <div class="tick">
+                    <td></td>
+                    <td><label for="tick"><input type="checkbox">Tôi xác nhận thông tin trên là đúng</label></td>
+                </div>
+            </tr>
+            <tr>
+                <div class="submit">    
+                    <td></td>
+                    <td><label for="submit"><input type="submit" value="Gửi câu hỏi">&nbsp;&nbsp;<input type="reset" value="Xóa form"></label></td>
+                </div>           
+            </tr>
+        </table>
+    </form>     
+    </fieldset>
+</body>
+</html>

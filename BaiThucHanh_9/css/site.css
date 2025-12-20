@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 14px Tahoma;
+}
+:root{
+    --normal-width: 1400px;
+    --body-color: #f2f2f2;
+    --full-size: 100%;
+    --font-bord: #613685;
+    --p-bg: #412359cc;
+}
+body{
+    background-color: var(--body-color);
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--font-bord);
+    padding-bottom: 20px;
+}
+p{
+    height: 60px;
+    color: white;
+    font-size: 1.1em;
+    background-color: var(--p-bg);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 2;
+}
+img{
+    border: 5px solid var(--font-bord);
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.header{
+    background-image: url(../images/bg_header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.header > .header-menu{
+    width: var(--normal-width);
+    margin: 0 auto;
+    background-color: #412359cc;
+    border-radius: 60px;
+    position: relative;
+    top: 20px;
+}
+.header-menu > li{
+    display: inline-table;
+    padding: 20px 30px 20px 90px;
+}
+.header-menu > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.content{
+    width: var(--normal-width);
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    bottom: 60px;
+}
+.content > .content-box{
+    padding: 20px;
+}
+.box-1-pics{
+    width: 1360px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.tour-1, .tour-2, .tour-3, .tour-4{
+    height: 300px;
+    width: 300px;
+}
+.tour-1 > p{
+    width: 300px;
+}
+.tour-1 > .hue-tour{
+    width: var(--full-size);
+    height: var(--full-size);
+}
+.tour-2 > p{
+    width: 300px;
+}
+.tour-2 > .water-tg{
+    width: var(--full-size);
+    height: var(--full-size);
+}
+.tour-3 > p{
+    width: 300px;
+}
+.tour-3 > .mount-bm{
+    width: var(--full-size);
+    height: var(--full-size);
+}
+.tour-4 > p{
+    width: 300px;
+}
+.tour-4 > .dragon-boat{
+    width: var(--full-size);
+    height: var(--full-size);
+}
+.box-2-pics{
+    width: 1340px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 300px);
+    gap: 20px;
+}
+.place-1 > p{
+    width: 665px;
+}
+.place-1 > .td-tomb{
+    width: var(--full-size);
+    height: var(--full-size);
+}
+.place-2 > p{
+    width: 665px;
+}
+.place-2 > .kd-tomb{
+    width: var(--full-size);
+    height: var(--full-size);
+}
+.place-3 > p{
+    width: 665px;
+}
+.place-3 > .tm-pagoda{
+    width: var(--full-size);
+    height: var(--full-size);
+}
+.place-4 > p{
+    width: 665px;
+}
+.place-4 > .lc-bay{
+    width: var(--full-size);
+    height: var(--full-size);
+}
